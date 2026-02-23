@@ -10,3 +10,8 @@ resource "aws_vpc" "fortress_vpc" {
     Name = "MySecureFortress"
   }
 }
+
+
+resource "aws_s3_bucket" "my_test_bucket" {
+  bucket = "vijayyy-unique-test-bucket-2026" 
+}
